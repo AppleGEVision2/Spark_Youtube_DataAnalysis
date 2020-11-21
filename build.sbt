@@ -3,13 +3,13 @@ import sbt.Keys.{libraryDependencies, scalaVersion, version}
 
 lazy val root = (project in file(".")).
   settings(
-    name := "CPTS-415-Project",
+    name := "CPTS-415-group5-milestone3",
 
     version := "0.1.0",
 
     scalaVersion := "2.12.8",
 
-    organization  := "org.dataoceanlab",
+    organization  := "org.sparKYoutube",
 
     publishMavenStyle := true,
 
